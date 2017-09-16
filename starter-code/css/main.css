@@ -4,6 +4,9 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+* {
+  box-sizing: border-box;
+}
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
@@ -16,6 +19,8 @@ body {
 }
 header h1 {
   margin: 0;
+  color: #a0b3d3;
+
 }
 
 a {
@@ -24,6 +29,49 @@ a {
   color: #517fa4;
 }
 
-footer p {
-  f
+main h2 {
+  color: #3b5998;
+}
+
+.white-box {
+    border-radius: 5px;
+    /* border-color: black; */
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    display: inline-block;
+    margin-left: 30px;
+    position: relative;
+    bottom: 300px;
+    background-color: white;
+}
+
+.google-button {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.apple-button {
+    display: inline-block;
+}
+
+.phone-buttons {
+    margin-top: 20px;
+    margin-left: 10px;
+
+}
+
+.main-phones {
+    display: inline-block;
+    height:  600px;
+    margin-left: 200px;
+}
+
+.main-phones img {
+    position: relative;
+    bottom: 200px;
+}
+
+section {
+    position: relative;
 }
