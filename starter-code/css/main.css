@@ -17,10 +17,12 @@ body {
   height: 300px;
 
 }
-header h1 {
+.brand img {
   margin: 0;
-  color: #a0b3d3;
-
+  position: absolute;
+  bottom: 730px;
+  left: 545px;
+  font-size: 30px;
 }
 
 a {
@@ -42,7 +44,7 @@ main h2 {
     display: inline-block;
     margin-left: 30px;
     position: relative;
-    bottom: 300px;
+    bottom: 290px;
     background-color: white;
 }
 
@@ -74,4 +76,24 @@ main h2 {
 
 section {
     position: relative;
+}
+
+.white-box h2, .white-box p
+{
+  margin-left: 20px;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+    text-align: center;
+}
+
+a {
+  padding: 0px 10px 10px 10px; 
+}
+footer {
+    position: fixed;
 }
